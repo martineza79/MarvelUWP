@@ -16,8 +16,8 @@ namespace MarvelUWP
 {
     public class MarvelFacade
     {
-        private const string PublicKey = "358ac81489a15307a9af65bbb84cee44"; //Use your own Private Key from developer.marvel.com
-        private const string PrivateKey = "f0644610812937d4d39fb27093f0e4ecf0c172d2"; //Use your own Private Key from developer.marvel.com
+        private const string PublicKey = ""; //Use your own Private Key from developer.marvel.com
+        private const string PrivateKey = ""; //Use your own Private Key from developer.marvel.com
         private const string ImageNotAvailablePath = "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available";
         private const int MaxCharacters = 1500;
 
