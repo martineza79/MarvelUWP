@@ -12,7 +12,7 @@
     <Grid>
 
         <VisualStateManager.VisualStateGroups>
-            <VisualStateGroups x:Name="VisualStateGroups" >
+            <VisualStateGroup x:Name="VisualStateGroup" >
                 <VisualState x:Name="Wide" >
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="800" />
@@ -35,7 +35,7 @@
                         <Setter Target="ColumnWidth.Width" Value="Auto" />
                     </VisualState.Setters>
                 </VisualState>
-            </VisualStateGroups>
+            </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
                 
         <ScrollViewer>
