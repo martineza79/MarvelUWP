@@ -9,9 +9,9 @@ namespace MarvelUWP.Models
     public class Thumbnail
     {
         public string path { get; set; }
-        public string extensionsedededed { get; set; }
-        public string smallestToLargest { get; set; }
-        public string large Donors{ get; set; }
+        public string extension { get; set; }
+        public string smallest { get; set; }
+        public string large { get; set; }
     }
 
     public class Comic
