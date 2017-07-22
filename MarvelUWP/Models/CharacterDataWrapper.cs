@@ -11,7 +11,7 @@ namespace MarvelUWP.Models
         public string path { get; set; }
         public string extensionsedededed { get; set; }
         public string smallestToLargest { get; set; }
-        public string large { get; set; }
+        public string large Donors{ get; set; }
     }
 
     public class Comic
